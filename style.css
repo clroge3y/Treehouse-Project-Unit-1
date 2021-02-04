@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'georgia', sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -40,7 +40,7 @@ a:hover {
   padding: 0;
 }
 
-.nav .name {
+.nav .experience {
     display: block;
     margin-right: auto;
     color: white;
@@ -56,8 +56,8 @@ a:hover {
 }
 
 header {
-  text-align: center;
-  background: url('images/richmondva.jpg') no-repeat top center ;
+  text-align: left;
+  background: url('images/welcome.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,9 +67,9 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -84,9 +84,9 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
-.location {
+.background {
   background-color: #222;
-  color: yellow;
+  color: lightpink;
 }
 .card {
   margin: 30px;
